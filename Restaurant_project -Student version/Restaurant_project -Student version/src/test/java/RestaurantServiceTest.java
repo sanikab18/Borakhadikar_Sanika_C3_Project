@@ -30,6 +30,7 @@ class RestaurantServiceTest {
         System.out.println(restaurant.name);
         if (restaurant.name == "null")
         {
+
             throws("Restaurant can not be found");
         }
     }
