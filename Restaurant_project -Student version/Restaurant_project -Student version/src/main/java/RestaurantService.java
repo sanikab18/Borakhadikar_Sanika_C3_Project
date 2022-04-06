@@ -8,10 +8,10 @@ public class RestaurantService {
     public Restaurant findRestaurantByName(String restaurantName){
 //         return null;
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
-        for(restaurants : r)
+        for(restaurants : r1)
         {
-            if(r.equals(restaurantName))
-                return r;
+            if(r1.equals(restaurantName))
+                return r1;
             else
                 return null;
         }
